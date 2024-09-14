@@ -1,0 +1,49 @@
+.skill-section {
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.skill-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill {
+    margin: 10px 0;
+    width: 90%;
+}
+
+.skill-bar {
+    background: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.skill-level {
+    background: #007bff;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 25px 0 0 25px;
+    transition: width 1.5s ease-in-out;
+    /* animation: fillskill 2s ease forwards; */
+}
+
+/* @keyframes fillskill {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+} */
