@@ -8,6 +8,7 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -48,18 +49,28 @@ const Footer = () => {
             discussing new projects and design challenges.
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <Link
+              to={"//https://www.facebook.com/sonu.karn.1232"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebook
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link to={""}>
+              <FaTwitter
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link to={"//www.linkedin.com/in/sonuwebtechnical"} target="_blank">
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </Link>
           </div>
         </div>
       </div>

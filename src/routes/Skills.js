@@ -8,7 +8,7 @@ const Skills = () => {
     <div>
       <Navbar />
       <Heroimage
-        heading="My Skilss."
+        heading="My Skills."
         text="I have enjoyed to Learn these Skills"
       />
       <Skill />

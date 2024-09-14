@@ -1,6 +1,6 @@
 import pro1 from "../assets/javascriptdesktop.png";
 import pro2 from "../assets/digitalAgency.png";
-import pro3 from "../assets/project3.png";
+import pro3 from "../assets/blogpic1.png";
 const projectCardData = [
   {
     imgsrc: pro1,
@@ -11,18 +11,18 @@ const projectCardData = [
   },
 
   {
+    imgsrc: pro3,
+    title: "Bloging Website in Mern Stack",
+    text: "A fully responsive blog website designed to deliver an optimal reading experience across all devices. This project features a modern, clean layout with easy navigation, an engaging user interface Built using React, Node, Express, and Mongo Db , the site includes a dynamic blog post section, a Filter Section, and an interactive commenting system.,",
+    view: "https://sonukarndigitalagency.netlify.app/",
+    source: "https://github.com/sonukarn/Responsive-Blog-Website",
+  },
+  {
     imgsrc: pro2,
     title: "Figma Template Responsive website",
     text: "I have created this website from figma design templates it is responsive for mobile and desktop version,",
     view: "https://sonukarndigitalagency.netlify.app/",
     source: "https://github.com/sonukarn/Figma-Responsive-Website",
-  },
-  {
-    imgsrc: pro3,
-    title: "Guesing Number in C",
-    text: 'Thriving Facebook community and top-ranked podcast, amy inspires a grounded, tangible and self-affirming sense of "Wow! really can do this" for over 100,000 online entrepreneurs. Best-selling marketing courses ',
-    view: "https:/www.google.com",
-    source: "https://github.com/sonukarn/Guesing-Number-C",
   },
 ];
 export default projectCardData;

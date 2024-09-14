@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import React1 from "../assets/react1.jpg";
 import React2 from "../assets/react2.webp";
+
 const AboutContent = () => {
   return (
     <div className="about">
