@@ -1,6 +1,7 @@
 import pro1 from "../assets/javascriptdesktop.png";
 import pro2 from "../assets/digitalAgency.png";
 import pro3 from "../assets/blogpic1.png";
+import cloneproject from "../assets/clone.png";
 const projectCardData = [
   {
     imgsrc: pro1,
@@ -25,6 +26,14 @@ const projectCardData = [
     text: "I have created this website from figma design templates it is responsive for mobile and desktop version,",
     view: "//sonukarndigitalagency.netlify.app/",
     technology: ["Html", "Css", "JavaScript"],
+    source: "//github.com/sonukarn/Figma-Responsive-Website",
+  },
+  {
+    imgsrc: cloneproject,
+    title: "Website Clone for Improving Designing Skills",
+    text: "I have created this website from figma design templates it is responsive for mobile and desktop version,",
+    view: "//cloneprojectweb.netlify.app/",
+    technology: ["JavaScript", "React", "TailwindCss"],
     source: "//github.com/sonukarn/Figma-Responsive-Website",
   },
 ];
