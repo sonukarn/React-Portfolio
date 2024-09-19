@@ -2,9 +2,9 @@
     width: 90%;
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 5px;
-
+    overflow: hidden;
 }
 
 .work-container {
@@ -32,4 +32,12 @@
     width: 100%;
     max-width: 1200px;
     overflow: hidden; */
+}
+
+@media (max-width:768px) {
+    .project-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        padding: 5px;
+        margin: auto;
+    }
 }

@@ -59,4 +59,13 @@
 
     }
 
+    .card {
+        padding: .5rem;
+        overflow: hidden;
+    }
+
+    .btc {
+        font-size: 2.5rem;
+    }
+
 }
