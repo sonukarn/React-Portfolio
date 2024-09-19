@@ -1,0 +1,35 @@
+.main_container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.project-heading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 0 2rem 0;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    /* justify-items: center;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden; */
+}

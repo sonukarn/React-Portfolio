@@ -12,6 +12,7 @@ const About = (props) => {
         text="I am Freelancer and React Developer"
       />
       <AboutContent />
+      
     </div>
   );
 };
